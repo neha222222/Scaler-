@@ -2,7 +2,7 @@
 
 > AI-powered lead acquisition and conversion system designed to transform blog readers and content consumers into qualified leads for Scaler Academy's programs.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a sophisticated AI-driven funnel that:
 - **Tracks and scores** anonymous visitor behavior in real-time
@@ -14,7 +14,7 @@ This project implements a sophisticated AI-driven funnel that:
 **Growth Opportunity**: Convert blog readers/free video viewers into leads
 **Target Impact**: 270% increase in content-to-lead conversion rate
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -35,7 +35,7 @@ This project implements a sophisticated AI-driven funnel that:
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -94,7 +94,7 @@ scaler-ai-lead-funnel/
 └── README.md              # This file
 ```
 
-## 🧠 AI Components
+##  AI Components
 
 ### 1. Lead Scoring Engine (`src/lib/ai-engine.ts`)
 
@@ -167,7 +167,7 @@ const router = LeadScoringAndRoutingSystem.getInstance();
 const result = await router.processLead(lead);
 ```
 
-## 🤖 Interactive Components
+##  Interactive Components
 
 ### AI Chatbot (`src/components/AIchatbot.tsx`)
 
@@ -199,7 +199,7 @@ const result = await router.processLead(lead);
 - Channel ROI analysis
 - Email engagement statistics
 
-## 📊 Performance Tracking
+##  Performance Tracking
 
 ### Key Metrics Monitored
 
@@ -231,7 +231,7 @@ The system is designed to integrate with:
 - **SendGrid/Mailgun**: For email delivery and tracking
 - **CRM Systems**: For sales pipeline management
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -266,7 +266,7 @@ ENABLE_SMART_ROUTING=true
 3. **Routing Rules**: Add/modify routing logic in `lead-router.ts`
 4. **UI Themes**: Update styling in `globals.css` and component files
 
-## 🧪 Testing
+##  Testing
 
 ### Running Tests
 
@@ -292,7 +292,7 @@ The system supports A/B testing for:
 - Chatbot conversation flows
 - Popup timing and messaging
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Build
 
@@ -328,7 +328,7 @@ npm run start
 - **Analytics**: Track conversion metrics and user behavior
 - **Alerts**: Set up notifications for system issues
 
-## 📈 Optimization Recommendations
+##  Optimization Recommendations
 
 ### Short-term (Week 1-2)
 - [ ] Set up comprehensive analytics tracking
@@ -348,7 +348,7 @@ npm run start
 - [ ] Add advanced segmentation features
 - [ ] Build comprehensive lead lifecycle management
 
-## 🤝 Contributing
+##  Contributing
 
 ### Development Workflow
 
@@ -365,7 +365,7 @@ npm run start
 - **Prettier**: Automatic code formatting
 - **Testing**: Jest + React Testing Library
 
-## 📚 Additional Resources
+##  Additional Resources
 
 ### Documentation
 - [Funnel Architecture](./FUNNEL_ARCHITECTURE.md)
@@ -378,18 +378,9 @@ npm run start
 - [TailwindCSS Documentation](https://tailwindcss.com/docs)
 - [Framer Motion Documentation](https://www.framer.com/motion/)
 
-## 📞 Support
+##  Support
 
 For questions or support:
 - Create an issue in the repository
-- Contact: nehadhruW3@GMAIL.COM
+- Contact: nehadhruw3@gmail.com.COM
 - Documentation: [Project Wiki](./docs/)
-
-## 📄 License
-
-This project is proprietary software developed for Scaler Academy.
-
----
-
-**Built with ❤️ for Scaler Academy**  
-*Transforming careers through intelligent lead conversion*

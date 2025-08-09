@@ -1,6 +1,6 @@
 # Quick Deployment Guide
 
-## 🚀 Option 1: Run Locally (Recommended to see the prototype)
+##  Option 1: Run Locally (Recommended to see the prototype)
 
 ```bash
 # 1. Navigate to project directory
@@ -17,7 +17,7 @@ npm run dev
 # http://localhost:3000/dashboard - Analytics dashboard
 ```
 
-## 🌐 Option 2: Deploy to Vercel (Easiest)
+##  Option 2: Deploy to Vercel (Easiest)
 
 1. **Install Vercel CLI:**
 ```bash
@@ -32,7 +32,7 @@ vercel
 
 3. **Get live URL** - Vercel will provide a live link
 
-## 🔧 Option 3: Deploy to Render
+##  Option 3: Deploy to Render
 
 1. **Create account** at render.com
 2. **Connect GitHub repo** (push code to GitHub first)
@@ -42,7 +42,7 @@ vercel
    - Node Version: 18
 4. **Deploy** - Render will provide live URL
 
-## 📦 Option 4: Deploy to Netlify
+##  Option 4: Deploy to Netlify
 
 1. **Build the project:**
 ```bash
@@ -54,7 +54,7 @@ npm run build
    - Drag and drop the `out` folder
    - Get instant live URL
 
-## 🐳 Option 5: Docker Deployment
+##  Option 5: Docker Deployment
 
 ```bash
 # Create Dockerfile first, then:
@@ -62,7 +62,7 @@ docker build -t scaler-funnel .
 docker run -p 3000:3000 scaler-funnel
 ```
 
-## 🎯 What You'll See
+##  What You'll See
 
 ### Main Landing Page (/)
 - Conversion-optimized landing page
@@ -78,7 +78,7 @@ docker run -p 3000:3000 scaler-funnel
 - AI-powered insights
 - Interactive charts and graphs
 
-## 🔧 Quick Fixes if Issues
+##  Quick Fixes if Issues
 
 If you encounter errors:
 
@@ -98,7 +98,7 @@ npm ci --legacy-peer-deps
 npm run build --verbose
 ```
 
-## 📱 Features to Test
+##  Features to Test
 
 1. **Landing Page Engagement:**
    - Scroll down 50% and wait 60 seconds → email popup appears
@@ -115,7 +115,7 @@ npm run build --verbose
    - See email performance data
    - Check AI insights section
 
-## 🚨 Important Notes
+##  Important Notes
 
 - This is a **prototype/demo** - some integrations are simulated
 - **Email sending** is mocked (shows console logs)
@@ -123,11 +123,9 @@ npm run build --verbose
 - **Analytics data** is sample/mock data
 - Ready for **real integrations** (SendGrid, analytics, CRM)
 
-## 🎯 Best Way to Demo
+##  Best Way to Demo
 
 1. **Run locally** first to see everything working
 2. **Deploy to Vercel** for easy sharing
 3. **Share the live link** with stakeholders
 4. **Walk through** the user journey step by step
-
-The prototype demonstrates the complete AI-powered funnel concept and is ready for production integration!
